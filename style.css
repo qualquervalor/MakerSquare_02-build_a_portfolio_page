@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+div {
+	text-align: center;
+}
+img {
+	border-radius: 100%;
+	height: 100px;
+	width: 70%;
+}
+nav{
+	background-color: white;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+	border: 3px solid blue;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+body{
+	background-color: grey;
+}
+#outer{
+	background-color: yellow;
+}
+.navItems{
+	height: 30px;
+	width: 170px;
+	font-family: 'Open Sans';
+
+}
+.navItems:hover{
+   background-color:#FF0000;
+}
