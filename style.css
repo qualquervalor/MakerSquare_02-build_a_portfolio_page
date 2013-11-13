@@ -1,33 +1,55 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-div {
-	text-align: center;
-}
-img {
-	border-radius: 100%;
-	height: 100px;
-	width: 70%;
+body{
+	background-color: lightgrey;
 }
 nav{
-	background-color: white;
+	background-color: lightgrey;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	float: left;
 	border: 3px solid blue;
-	padding: 10px;
-	box-shadow: 10px 10px 5px #888888;
+	padding: 10px;/* padding is on the inside of the box*/
+	/*margin: 10px;/* margin is on the outside*/
+	box-shadow: 20px 20px 5px #888888;
+	border-radius: 5%;
+	width:30%;
 }
-body{
-	background-color: grey;
+div {
+	text-align: center;
 }
 #outer{
 	background-color: yellow;
 }
+img {
+	border-radius: 100%;
+	height: 100px;
+	width: 90%;
+}
 .navItems{
-	height: 30px;
-	width: 170px;
+	height: 30px;	
 	font-family: 'Open Sans';
+	padding-top: 5px;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 
 }
 .navItems:hover{
-   background-color:#FF0000;
+   background-color:lightgrey;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  
+
+}
+#center{
+	float:left;
+	width: 30%;
+	height: 400px;
+}
+#twitter{
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 5%;
+	width:30%;
+	float:left;
 }
